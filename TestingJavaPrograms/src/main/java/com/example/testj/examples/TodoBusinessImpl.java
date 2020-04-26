@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class TodoBusinessImpl {
 
-	TodoService todoService;
+	final TodoService todoService;
 
 	public TodoBusinessImpl(TodoService todoService) {
 		this.todoService = todoService;
